@@ -1,66 +1,119 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
   }
   
   body {
-    background: url('img/bg.jpg') no-repeat;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .navbar {
+    display: flex;
+    margin-right: 10px;
+  }
+  .logo {
+    margin-left: 30px;
+  }
+  
+  .logo a {text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+  
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+  
+  }
+  
+  .navbar a:hover {
+    background: #3f3f3f;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    height: 60vh !important;
+    background: url(https://miautobiografia11.000webhostapp.com/img/me.jpg) no repeat center;
     background-size: cover;
   }
   
-  .box {
-    width: 500px;
-    background: rgba(0, 0, 0, .4);
-    padding: 20px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 4%;
-    color: white;
-    font-family: 'Century Gothic', sans-serif;
-    border-radius: 15px;
-    /* box-shadow: 7px 13px 37px black; */
+  .title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
   }
   
-  .box-img {
-    border-radius: 50%;
+  p {
+    margin-bottom: 40px;
+    font-size: 18px;
   }
   
-  .box h1 {
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
-    margin: 30px 0 20px;
-  }
-  
-  .box h2 {
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 100;
-    margin-bottom: 30px
-  }
-  
-  .box p {
-    text-align: justify;
-  }
-  
-  .box ul {
-    margin-top: 20px;
-    list-style: none;
-  }
-  
-  .box ul li {
+  .btn {
     display: inline-block;
-  }
-  .box ul li a {
-    color: white;
-    font-size: 45px;
-    padding: 10px 5px;
-    transition: all .5s ease-in-out;
-    display: block;
+    margin-top: 15px;
+    padding: 10xp 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background: #9c27b0;
   }
   
-  .box ul li a:hover {
-    color:#b9b9b9;
-    transform: scale(1.3);
+  .btn:hover {
+    background: none;
+  }
+  
+  .btn-home {
+    display: flex;
+  }
+  
+  .btn-home a {
+    margin: 0 10px;
+  }
+
+  .content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sau {
+    padding: 30px;
+    background: #1f1d1d;
+  }
+
+  .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .box-container .box {
+    
   }
