@@ -86,13 +86,7 @@
     background: none;
   }
   
-  .btn-home {
-    display: flex;
-  }
-  
-  .btn-home a {
-    margin: 0 10px;
-  }
+
 
   .content {
     height: 50vh;
@@ -102,18 +96,3 @@
     align-items: center;
   }
 
-  .sau {
-    padding: 30px;
-    background: #1f1d1d;
-  }
-
-  .box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-
-  .box-container .box {
-    
-  }
